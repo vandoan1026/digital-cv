@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "arial", sans-serif;
+  color: #343a40;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.bg-dark-grey {
+  background-color: #f2f2f2;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+/* Hero section */
+header {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  color: #f1f3f5;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Navigation section */
+.nav-item i {
+  color: #4dabf7;
+}
+
+.nav-item-box:hover {
+  background-color: #ced4da;
+}
+
+/* Target & Personal infor section */
+.section-01 {
+  line-height: 1.6;
+}
+
+.i-info {
+  font-size: 24px;
+}
+
+#personal-info ul {
+  padding-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#about li {
+  font-size: 1.25rem;
+}
+
+/* Job information section */
+.card-head i {
+  font-size: 3rem;
+  color: #4dabf7;
+}
+
+.card-title {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.ul-sub li {
+  list-style-type: "- ";
+  color: #868e96;
+}
+
+#job-info ul {
+  list-style-type: none;
+}
+
+.li-main {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.li-main li::before {
+  content: "";
+  position: absolute;
+  background-color: #339af0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 12px;
+  left: -20px;
+}
+
+.btn-current {
+  background-color: #339af0;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.hobby-icon {
+  height: 40px;
+  width: 40px;
+  stroke: #339af0;
+}
+
+.icon-border {
+  padding: 0;
+  margin: 0;
+  width: 56px;
+  height: 56px;
+  border: 2px solid #339af0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.point {
+  display: inline-block;
+  background-color: #495057;
+  height: 2px;
+  padding: 5px 30px;
+  width: px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.point-blue {
+  background-color: #339af0;
+}
+
+/* Certificate section */
+#certificate ul {
+  list-style-type: none;
+}
+
+#cer-img {
+  max-height: 150px;
+}
+
+/* Project section */
+.box-1 i {
+  color: #339af0;
+}
+
+.year {
+  width: 71px;
+  background-color: #339af0;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+
+/* Footer section */
+/* .footer {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+} */
+
+.footer i {
+  color: #339af0;
+  font-size: 2vw;
+}
+
+.footer div {
+  color: #495057;
+  font-size: 2vw;
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 992px) {
+  .name {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-item-box {
+    height: 100px;
+    border-left: 1px solid rgba(52, 58, 64, 0.2);
+  }
+
+  .nav-item-box:last-child {
+    border-right: 1px solid rgba(52, 58, 64, 0.2);
+  }
+
+  .border-right {
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;
+  }
+
+  #target {
+    padding-left: 3rem;
+  }
+
+  #personal-info {
+    padding-left: 3rem;
+  }
+}
